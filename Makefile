@@ -12,3 +12,6 @@ all: main
 
 main: $(SRC)
 	$(CC) $< -o $@
+
+clean:
+	@rm -f main
